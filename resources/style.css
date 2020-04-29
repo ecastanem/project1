@@ -1,0 +1,197 @@
+/*div{
+    border: 0.5px solid black;
+}*/
+
+div.top_page{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+}
+
+div.middle_page{
+    top: 3rem;
+    font-size: 1.5rem;
+}
+
+.navbar{
+    font-size: 1.5rem;
+}
+
+nav a{
+    color: #ada497;
+}
+
+.social-media{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-right: 0.75em;
+    padding-inline-start: 10px;
+}
+
+body{
+    background-color: #f2ebe3;
+    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Handlee', cursive;*/
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.jumbotron {
+    /*background-image: url("./images/others/Banner6.jpg");*/
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: #ffff;
+}
+
+.carousel{
+    z-index: 2;
+    padding: 1rem;
+}
+
+.carousel-img{
+    max-height: 32rem;
+}
+
+.carousel-indicators li{
+    background-color: #859074;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #b2baa4;
+    border-color: #b2baa4;
+}
+
+.sobre_nosotros, .eventos{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+p.sobre_nosotros, p.eventos{
+    padding: 2rem;
+}
+
+
+.img_sobre_nosotros{
+    max-width: 400px;
+    align-items: center;
+    transform: rotate(10deg);
+}
+
+img.img_eventos_1{
+    max-height: 400px;
+    align-items: center;
+    transform: rotate(10deg);
+}
+
+img.img_eventos_2{
+    max-width: 400px;
+    align-items: center;
+    transform: rotate(-10deg);
+}
+
+
+div.nuestro_equipo, div.about_us, div.eventos{
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
+
+}
+
+.team{
+    padding-top: 2rem;
+    text-align: center;
+    background-color: #f2ebe3;
+
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f2ebe3;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    align-items: center;
+    text-align: center;
+}
+
+img.card-img-top{
+    width: 200px;
+    height: 200px;;
+}
+
+.pie_pagina, a.pie_pagina{
+    padding: 0.5rem;
+    text-align: center;
+    color: #f2ebe3;
+    font-size: 1.25rem;
+}
+
+img.pie_pagina{
+    max-width: 200px;
+    padding: 0;
+    padding-top: 2rem;
+}
+
+div.pie_pagina_icon{
+    align-items: center;
+}
+
+h4, h5{
+    font-size: 1.75rem;
+}
+
+div.boutique, div.eventos{
+    align-items: center;
+    text-align: center;
+    color: black ;
+}
+
+.jumbotron.insignia{
+    background-image: url("./images/arreglos/insignia/Rosas.jpeg");
+    background-size: cover;
+    opacity: 0.5;
+    padding-top: 25rem;
+    padding-bottom: 1rem;
+}
+
+.jumbotron.insignia:hover {
+    opacity: 1;
+}
+
+.jumbotron.temporada{
+    background-image: url("./images/arreglos/temporada/Tulipanes rojos y amarillos.jpeg");
+    background-size: cover;
+    opacity: 0.5;
+    padding-top: 25rem;
+    padding-bottom: 1rem;
+    
+}
+
+.jumbotron.temporada:hover {
+    opacity: 1;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    font-size: 2rem;
+}
+
+h4.boutique, h4.eventos{
+    font-size: 2rem;
+}
+
+.label_eventos{
+    width: 100%;
+    display: grid;
+    text-align: left;
+}
